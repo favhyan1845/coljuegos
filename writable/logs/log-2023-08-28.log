@@ -1,0 +1,92 @@
+ERROR - 2023-08-28 23:29:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' WHERE usuario = 'CJ900024874' and pasword =''' at line 1 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(92): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(112): App\Models\OperadorModel->loginUser(Array)
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->login()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-28 23:29:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' WHERE usuario = 'CJ900024874' and pasword =''' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'')
+ 4 APPPATH\Models\OperadorModel.php(92): CodeIgniter\Database\BaseConnection->query('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'')
+ 5 APPPATH\Controllers\OperadorApiController.php(112): App\Models\OperadorModel->loginUser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 23:29:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' WHERE usuario = 'CJ900024874' and pasword =''' at line 1 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(92): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(112): App\Models\OperadorModel->loginUser(Array)
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->login()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-28 23:29:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' WHERE usuario = 'CJ900024874' and pasword =''' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'')
+ 4 APPPATH\Models\OperadorModel.php(92): CodeIgniter\Database\BaseConnection->query('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'')
+ 5 APPPATH\Controllers\OperadorApiController.php(112): App\Models\OperadorModel->loginUser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 23:29:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' WHERE usuario = 'CJ900024874' and pasword =''' at line 1 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(92): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(112): App\Models\OperadorModel->loginUser(Array)
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->login()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-28 23:29:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' WHERE usuario = 'CJ900024874' and pasword =''' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'')
+ 4 APPPATH\Models\OperadorModel.php(92): CodeIgniter\Database\BaseConnection->query('SELECT * FROM operador\' WHERE usuario = \'CJ900024874\' and pasword =\'\'')
+ 5 APPPATH\Controllers\OperadorApiController.php(112): App\Models\OperadorModel->loginUser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 23:36:37 --> mysqli_sql_exception: Unknown column 'pasword' in 'where clause' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM o...')
+#3 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(92): CodeIgniter\Database\BaseConnection->query('SELECT * FROM o...')
+#4 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(112): App\Models\OperadorModel->loginUser(Array)
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->login()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-28 23:36:37 --> Unknown column 'pasword' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM operador WHERE usuario = \'CJ900024874\' and pasword =\'abc123\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM operador WHERE usuario = \'CJ900024874\' and pasword =\'abc123\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM operador WHERE usuario = \'CJ900024874\' and pasword =\'abc123\'')
+ 4 APPPATH\Models\OperadorModel.php(92): CodeIgniter\Database\BaseConnection->query('SELECT * FROM operador WHERE usuario = \'CJ900024874\' and pasword =\'abc123\'')
+ 5 APPPATH\Controllers\OperadorApiController.php(112): App\Models\OperadorModel->loginUser([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

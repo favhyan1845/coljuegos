@@ -1,0 +1,1491 @@
+CRITICAL - 2023-05-26 00:40:19 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\UserApiController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 00:40:24 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\UserApiController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 00:40:26 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\UserApiController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 00:40:37 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$path
+in APPPATH\Controllers\UserApiController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 00:41:57 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\UserApiController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 00:41:59 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\UserApiController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 00:42:09 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\UserApiController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 00:43:57 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFileMultiple(), 0 passed in C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php on line 117 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 919.
+ 1 APPPATH\Controllers\UserApiController.php(117): CodeIgniter\HTTP\IncomingRequest->getFileMultiple()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 00:43:59 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFileMultiple(), 0 passed in C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php on line 117 and exactly 1 expected
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 919.
+ 1 APPPATH\Controllers\UserApiController.php(117): CodeIgniter\HTTP\IncomingRequest->getFileMultiple()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 00:52:43 --> Undefined variable: csv
+in APPPATH\Controllers\UserApiController.php on line 120.
+ 1 APPPATH\Controllers\UserApiController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: csv', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:00:46 --> Call to undefined function App\Controllers\str_contains()
+in APPPATH\Controllers\UserApiController.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:07:18 --> Undefined offset: 1
+in APPPATH\Controllers\UserApiController.php on line 126.
+ 1 APPPATH\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 126, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:07:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 1
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 126, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 01:07:49 --> Undefined offset: 1
+in APPPATH\Controllers\UserApiController.php on line 126.
+ 1 APPPATH\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 126, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:07:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 1
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 126, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 01:07:59 --> Undefined offset: 1
+in APPPATH\Controllers\UserApiController.php on line 126.
+ 1 APPPATH\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 126, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:07:59 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 1
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 126, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 01:10:42 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\UserApiController.php on line 126.
+ 1 APPPATH\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 126, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:10:42 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Invalid argument supplied for foreach()
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\c...', 126, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 01:10:45 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\UserApiController.php on line 126.
+ 1 APPPATH\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 126, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:10:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Invalid argument supplied for foreach()
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\c...', 126, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 01:17:10 --> syntax error, unexpected ')'
+in APPPATH\Controllers\UserApiController.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserApiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserApiController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\UserApiController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserApiController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:18:04 --> syntax error, unexpected ')'
+in APPPATH\Controllers\UserApiController.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserApiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserApiController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\UserApiController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserApiController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:18:07 --> syntax error, unexpected ')'
+in APPPATH\Controllers\UserApiController.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserApiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserApiController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\UserApiController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserApiController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:28:32 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\UserApiController.php on line 149.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserApiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserApiController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\UserApiController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserApiController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:46:43 --> Uninitialized string offset: 2
+in APPPATH\Controllers\UserApiController.php on line 128.
+ 1 APPPATH\Controllers\UserApiController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 2', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 128, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:46:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Uninitialized string offset: 2
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'C:\\wamp64\\www\\c...', 128, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 01:49:11 --> Uninitialized string offset: 2
+in APPPATH\Controllers\UserApiController.php on line 127.
+ 1 APPPATH\Controllers\UserApiController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 2', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 127, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:49:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Uninitialized string offset: 2
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'C:\\wamp64\\www\\c...', 127, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 01:53:09 --> Undefined offset: 4
+in APPPATH\Controllers\UserApiController.php on line 127.
+ 1 APPPATH\Controllers\UserApiController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 127, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:53:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 4
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 127, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 01:53:49 --> Undefined offset: 4
+in APPPATH\Controllers\UserApiController.php on line 129.
+ 1 APPPATH\Controllers\UserApiController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 129, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 01:53:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 4
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 129, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 16:34:30 --> Undefined offset: 4
+in APPPATH\Controllers\UserApiController.php on line 129.
+ 1 APPPATH\Controllers\UserApiController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 129, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 16:34:30 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 4
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 129, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 16:37:31 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 127.
+ 1 APPPATH\Controllers\UserApiController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 127, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 16:37:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 127, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:01:45 --> Undefined offset: 4
+in APPPATH\Controllers\UserApiController.php on line 151.
+ 1 APPPATH\Controllers\UserApiController.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 151, [...])
+ 2 APPPATH\Controllers\UserApiController.php(132): App\Controllers\UserApiController->jsonRI([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:02:56 --> Undefined offset: 4
+in APPPATH\Controllers\UserApiController.php on line 163.
+ 1 APPPATH\Controllers\UserApiController.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 163, [...])
+ 2 APPPATH\Controllers\UserApiController.php(133): App\Controllers\UserApiController->jsonRC([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:06:08 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:06:08 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:06:38 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:06:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:07:00 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 137.
+ 1 APPPATH\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 137, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:07:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 137, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:07:14 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 137.
+ 1 APPPATH\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 137, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:07:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 137, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:14:19 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 137.
+ 1 APPPATH\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 137, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:14:19 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 137, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:14:23 --> Undefined offset: 4
+in APPPATH\Controllers\UserApiController.php on line 151.
+ 1 APPPATH\Controllers\UserApiController.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 151, [...])
+ 2 APPPATH\Controllers\UserApiController.php(132): App\Controllers\UserApiController->jsonRI([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:14:34 --> Undefined offset: 4
+in APPPATH\Controllers\UserApiController.php on line 153.
+ 1 APPPATH\Controllers\UserApiController.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 153, [...])
+ 2 APPPATH\Controllers\UserApiController.php(133): App\Controllers\UserApiController->jsonRI([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:14:45 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:14:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:15:04 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:15:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:15:25 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 139.
+ 1 APPPATH\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 139, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:15:25 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:20:16 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 135.
+ 1 APPPATH\Controllers\UserApiController.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 135, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:20:16 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 135, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:46:44 --> Undefined variable: RC
+in APPPATH\Controllers\UserApiController.php on line 134.
+ 1 APPPATH\Controllers\UserApiController.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: RC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 134, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:46:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: RC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 134, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:50:45 --> Undefined variable: RC
+in APPPATH\Controllers\UserApiController.php on line 139.
+ 1 APPPATH\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: RC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 139, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:50:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: RC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:51:02 --> Undefined variable: RC
+in APPPATH\Controllers\UserApiController.php on line 139.
+ 1 APPPATH\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: RC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 139, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:51:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: RC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:51:04 --> Undefined variable: RC
+in APPPATH\Controllers\UserApiController.php on line 139.
+ 1 APPPATH\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: RC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 139, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:51:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: RC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:55:00 --> Undefined variable: RC
+in APPPATH\Controllers\UserApiController.php on line 139.
+ 1 APPPATH\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: RC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 139, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:55:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: RC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:55:01 --> Undefined variable: RC
+in APPPATH\Controllers\UserApiController.php on line 139.
+ 1 APPPATH\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: RC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 139, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:55:01 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: RC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:55:07 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 144.
+ 1 APPPATH\Controllers\UserApiController.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 144, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:55:07 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 144, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 17:55:09 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 144.
+ 1 APPPATH\Controllers\UserApiController.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 144, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 17:55:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 144, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:00:31 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 144.
+ 1 APPPATH\Controllers\UserApiController.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 144, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:00:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 144, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:00:52 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:00:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:01:32 --> Undefined variable: RC
+in APPPATH\Controllers\UserApiController.php on line 137.
+ 1 APPPATH\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: RC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 137, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:01:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: RC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 137, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:02:06 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:02:06 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:02:52 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:02:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:02:54 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:02:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:03:04 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:03:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:03:05 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:03:05 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:04:20 --> Undefined variable: encodeRC
+in APPPATH\Controllers\UserApiController.php on line 139.
+ 1 APPPATH\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: encodeRC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 139, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:04:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: encodeRC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:10:35 --> Undefined variable: encodeRC
+in APPPATH\Controllers\UserApiController.php on line 138.
+ 1 APPPATH\Controllers\UserApiController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: encodeRC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 138, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:10:35 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: encodeRC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 138, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:11:12 --> Undefined variable: RC
+in APPPATH\Controllers\UserApiController.php on line 137.
+ 1 APPPATH\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: RC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 137, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:11:12 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: RC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 137, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:11:14 --> Undefined variable: RC
+in APPPATH\Controllers\UserApiController.php on line 137.
+ 1 APPPATH\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: RC', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 137, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:11:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable: RC
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 137, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:11:52 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 136.
+ 1 APPPATH\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 136, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:11:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 136, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:12:15 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 138.
+ 1 APPPATH\Controllers\UserApiController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 138, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:12:15 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 138, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:12:44 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 138.
+ 1 APPPATH\Controllers\UserApiController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 138, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:12:44 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 138, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:12:53 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 139.
+ 1 APPPATH\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 139, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:12:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 18:13:28 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 139.
+ 1 APPPATH\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 139, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 18:13:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 19:32:36 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 139.
+ 1 APPPATH\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 139, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 19:32:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 19:32:50 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 128.
+ 1 APPPATH\Controllers\UserApiController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 128, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 19:32:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 128, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 19:33:00 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 128.
+ 1 APPPATH\Controllers\UserApiController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 128, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 19:33:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 128, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 19:33:31 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 128.
+ 1 APPPATH\Controllers\UserApiController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 128, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 19:33:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 128, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-26 19:34:33 --> Array to string conversion
+in APPPATH\Controllers\UserApiController.php on line 137.
+ 1 APPPATH\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 137, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-26 19:34:33 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 137, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

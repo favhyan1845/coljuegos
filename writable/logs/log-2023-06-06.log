@@ -1,0 +1,480 @@
+CRITICAL - 2023-06-06 00:05:04 --> Undefined offset: 0
+in APPPATH\Controllers\UserApiController.php on line 226.
+ 1 APPPATH\Controllers\UserApiController.php(226): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 226, [...])
+ 2 APPPATH\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC([...], 'C:\\wamp64\\tmp\\php7311.tmp')
+ 3 APPPATH\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI([...], 'C:\\wamp64\\tmp\\php7311.tmp')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:05:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 0
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(226): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 226, Array)
+#1 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC(Array, 'C:\\wamp64\\tmp\\p...')
+#2 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI(Array, 'C:\\wamp64\\tmp\\p...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#4 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#5 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-06 00:07:06 --> Undefined offset: 3
+in APPPATH\Controllers\UserApiController.php on line 240.
+ 1 APPPATH\Controllers\UserApiController.php(240): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 240, [...])
+ 2 APPPATH\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC([...], 'C:\\wamp64\\tmp\\php4FA4.tmp')
+ 3 APPPATH\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI([...], 'C:\\wamp64\\tmp\\php4FA4.tmp')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:07:06 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 3
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(240): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 240, Array)
+#1 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC(Array, 'C:\\wamp64\\tmp\\p...')
+#2 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI(Array, 'C:\\wamp64\\tmp\\p...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#4 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#5 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-06 00:08:14 --> Undefined offset: 3
+in APPPATH\Controllers\UserApiController.php on line 241.
+ 1 APPPATH\Controllers\UserApiController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 241, [...])
+ 2 APPPATH\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC([...], 'C:\\wamp64\\tmp\\php5ABC.tmp')
+ 3 APPPATH\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI([...], 'C:\\wamp64\\tmp\\php5ABC.tmp')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:08:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 3
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 241, Array)
+#1 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC(Array, 'C:\\wamp64\\tmp\\p...')
+#2 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI(Array, 'C:\\wamp64\\tmp\\p...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#4 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#5 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-06 00:14:16 --> Undefined offset: 3
+in APPPATH\Controllers\UserApiController.php on line 241.
+ 1 APPPATH\Controllers\UserApiController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 241, [...])
+ 2 APPPATH\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC([...], 'C:\\wamp64\\tmp\\phpDEF9.tmp')
+ 3 APPPATH\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI([...], 'C:\\wamp64\\tmp\\phpDEF9.tmp')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:14:16 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 3
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 241, Array)
+#1 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC(Array, 'C:\\wamp64\\tmp\\p...')
+#2 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI(Array, 'C:\\wamp64\\tmp\\p...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#4 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#5 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-06 00:17:00 --> Undefined offset: 3
+in APPPATH\Controllers\UserApiController.php on line 241.
+ 1 APPPATH\Controllers\UserApiController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 241, [...])
+ 2 APPPATH\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC([...], 'C:\\wamp64\\tmp\\php6278.tmp')
+ 3 APPPATH\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI([...], 'C:\\wamp64\\tmp\\php6278.tmp')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:17:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 3
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 241, Array)
+#1 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC(Array, 'C:\\wamp64\\tmp\\p...')
+#2 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI(Array, 'C:\\wamp64\\tmp\\p...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#4 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#5 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-06 00:17:18 --> Undefined offset: 3
+in APPPATH\Controllers\UserApiController.php on line 241.
+ 1 APPPATH\Controllers\UserApiController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 241, [...])
+ 2 APPPATH\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC([...], 'C:\\wamp64\\tmp\\phpA7FE.tmp')
+ 3 APPPATH\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI([...], 'C:\\wamp64\\tmp\\phpA7FE.tmp')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:17:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 3
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 241, Array)
+#1 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC(Array, 'C:\\wamp64\\tmp\\p...')
+#2 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI(Array, 'C:\\wamp64\\tmp\\p...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#4 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#5 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-06 00:17:37 --> array_push() expects parameter 1 to be array, null given
+in APPPATH\Controllers\UserApiController.php on line 241.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() expects parameter 1 to be array, null given', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 241, [...])
+ 2 APPPATH\Controllers\UserApiController.php(241): array_push(null, [...])
+ 3 APPPATH\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC([...], 'C:\\wamp64\\tmp\\phpF267.tmp')
+ 4 APPPATH\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI([...], 'C:\\wamp64\\tmp\\phpF267.tmp')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:17:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\wamp64\\www\\c...', 241, Array)
+#1 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(241): array_push(NULL, Array)
+#2 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC(Array, 'C:\\wamp64\\tmp\\p...')
+#3 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI(Array, 'C:\\wamp64\\tmp\\p...')
+#4 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#5 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#6 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-06 00:17:42 --> Undefined offset: 3
+in APPPATH\Controllers\UserApiController.php on line 241.
+ 1 APPPATH\Controllers\UserApiController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 241, [...])
+ 2 APPPATH\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC([...], 'C:\\wamp64\\tmp\\php67C.tmp')
+ 3 APPPATH\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI([...], 'C:\\wamp64\\tmp\\php67C.tmp')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:17:42 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 3
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 241, Array)
+#1 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC(Array, 'C:\\wamp64\\tmp\\p...')
+#2 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI(Array, 'C:\\wamp64\\tmp\\p...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#4 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#5 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-06 00:24:55 --> Undefined offset: 0
+in APPPATH\Controllers\UserApiController.php on line 203.
+ 1 APPPATH\Controllers\UserApiController.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 203, [...])
+ 2 APPPATH\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC([...], 'C:\\wamp64\\tmp\\phpA074.tmp')
+ 3 APPPATH\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI([...], 'C:\\wamp64\\tmp\\phpA074.tmp')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:24:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 0
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 203, Array)
+#1 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC(Array, 'C:\\wamp64\\tmp\\p...')
+#2 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI(Array, 'C:\\wamp64\\tmp\\p...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#4 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#5 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-06 00:25:27 --> Unsupported operand types
+in APPPATH\Controllers\UserApiController.php on line 201.
+ 1 APPPATH\Controllers\UserApiController.php(148): App\Controllers\UserApiController->jsonRC([...], 'C:\\wamp64\\tmp\\php1D38.tmp')
+ 2 APPPATH\Controllers\UserApiController.php(125): App\Controllers\UserApiController->jsonRI([...], 'C:\\wamp64\\tmp\\php1D38.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:37:14 --> Undefined offset: 0
+in APPPATH\Controllers\UserApiController.php on line 126.
+ 1 APPPATH\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 126, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:37:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined offset: 0
+#0 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 126, Array)
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#5 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-06 00:47:33 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Controllers\UserApiController.php on line 165.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 165, [...])
+ 2 APPPATH\Controllers\UserApiController.php(165): count('C:\\wamp64\\tmp\\php5A5B.tmp')
+ 3 APPPATH\Controllers\UserApiController.php(127): App\Controllers\UserApiController->array_RDRC(0, 'C:\\wamp64\\tmp\\php5A5B.tmp')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:52:26 --> Too few arguments to function App\Controllers\UserApiController::jsonRCPri(), 1 passed in C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php on line 127 and exactly 2 expected
+in APPPATH\Controllers\UserApiController.php on line 240.
+ 1 APPPATH\Controllers\UserApiController.php(127): App\Controllers\UserApiController->jsonRCPri('C:\\wamp64\\tmp\\phpD086.tmp')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:55:14 --> sha1() expects parameter 1 to be string, array given
+in APPPATH\Controllers\UserApiController.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1() expects parameter 1 to be string, array given', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 117, [...])
+ 2 APPPATH\Controllers\UserApiController.php(117): sha1([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:56:37 --> sha1_file(test-fav.csv): failed to open stream: No such file or directory
+in APPPATH\Controllers\UserApiController.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1_file(test-fav.csv): failed to open stream: No such file or directory', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 117, [...])
+ 2 APPPATH\Controllers\UserApiController.php(117): sha1_file('test-fav.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:56:42 --> sha1_file(test-fav.csv): failed to open stream: No such file or directory
+in APPPATH\Controllers\UserApiController.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1_file(test-fav.csv): failed to open stream: No such file or directory', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 117, [...])
+ 2 APPPATH\Controllers\UserApiController.php(117): sha1_file('test-fav.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 00:59:31 --> sha1_file(test-fav.csv): failed to open stream: No such file or directory
+in APPPATH\Controllers\UserApiController.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1_file(test-fav.csv): failed to open stream: No such file or directory', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 117, [...])
+ 2 APPPATH\Controllers\UserApiController.php(117): sha1_file('test-fav.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 01:45:08 --> Too few arguments to function CodeIgniter\HTTP\Message::getHeader(), 0 passed in C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php on line 116 and exactly 1 expected
+in SYSTEMPATH\HTTP\Message.php on line 85.
+ 1 APPPATH\Controllers\UserApiController.php(116): CodeIgniter\HTTP\Message->getHeader()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 01:48:23 --> Call to a member function xss_clean() on null
+in APPPATH\Controllers\UserApiController.php on line 125.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:04:07 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOiJ7XCJqc29uXCI6XCJ7XCJudW1lcm9Db250cmF0b1wiOntcImNvbnRyYXRvXCI6XCJDMTYzMlwifSxcImNvZGlnb1NIQVwiOntcImNvZGlnb1NIQVwiOlwiZGFhZTk3ZWFjZTVlODljNzU4Y2U3ZmQ0MzJmYTQ2Y2FhMTYwYzBlNFwifSxcImYxOERhdGFcIjp7XCJSSVwiOntcImZlY2hhUmVwb3J0ZVwiOlwiMjAyMzA1MTVcIixcIm5pdFwiOlwiOTAwMDI0ODc0XCIsXCJmb3JtYXRvXCI6XCJRM0dUZG43TDR4XCIsXCJjbGF2ZVwiOlwiRjE4XCJ9LFwiUkNcIjpbe1wiUkRcIjpbe1wibnVjXCI6XCIxMDAxMjc1NjAwXCIsXCJudWlkXCI6XCIwMjIwMDI0NFwiLFwic2VyaWFsXCI6XCIzMzQ4MzNcIixcImNvaW5JblwiOlwiNjg1NDQ0ODIwXCIsXCJjb2luT3V0XCI6XCI2MTg2NDIyNDBcIixcImphY2tQb3RcIjpcIjEzOTgwMFwiLFwiaGFuZFBhaWRcIjpcIjYxODY0MjI0MFwiLFwiYmlsbEluXCI6XCI2ODU0NDQ4MjBcIixcImdhbWVzUGxheWVkXCI6XCI0MjE0NTczXCIsXCJwb3JjZW50YWplVGVvcmljb1wiOlwiOTBcIixcImV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMDZcIixcImZlY2hhRXZlbnRTaWduaWZpY2F0aXZvXCI6XCIyMDIzMDUxNTA5MzgxOVwifSx7XCJudWNcIjpcIjEwMDEyNzU2MDBcIixcIm51aWRcIjpcIjAyMjAwMjQ0XCIsXCJzZXJpYWxcIjpcIjMzNDgzM1wiLFwiY29pbkluXCI6XCI2ODU0NTAzODBcIixcImNvaW5PdXRcIjpcIjYxODY0MjI2MFwiLFwiamFja1BvdFwiOlwiMTM5ODAwXCIsXCJoYW5kUGFpZFwiOlwiNjE4NjQyMjYwXCIsXCJiaWxsSW5cIjpcIjY4NTQ1MDM4MFwiLFwiZ2FtZXNQbGF5ZWRcIjpcIjQyMTQ2MDVcIixcInBvcmNlbnRhamVUZW9yaWNvXCI6XCI5MFwiLFwiZXZlbnRTaWduaWZpY2F0aXZvXCI6XCIwMlwiLFwiZmVjaGFFdmVudFNpZ25pZmljYXRpdm9cIjpcIjIwMjMwNTE1MDk1ODAxXCJ9LHtcIm51Y1wiOlwiMTAwMTI3NTYwMFwiLFwibnVpZFwiOlwiMDIyMDAyNDRcIixcInNlcmlhbFwiOlwiMzM0ODMzXCIsXCJjb2luSW5cIjpcIjY4NTQ2NTEyMFwiLFwiY29pbk91dFwiOlwiNjE4NjU2MjQwXCIsXCJqYWNrUG90XCI6XCIxMzk4MDBcIixcImhhbmRQYWlkXCI6XCI2MTg2NTYyNDBcIixcImJpbGxJblwiOlwiNjg1NDY1MTIwXCIsXCJnYW1lc1BsYXllZFwiOlwiNDIxNDY4OVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUxMDQ2MTJcIn0se1wibnVjXCI6XCIxMDAxMjc1NjAwXCIsXCJudWlkXCI6XCIwMjIwMDI0NFwiLFwic2VyaWFsXCI6XCIzMzQ4MzNcIixcImNvaW5JblwiOlwiNjg1NTk1MTIwXCIsXCJjb2luT3V0XCI6XCI2MTg3NzU0MDBcIixcImphY2tQb3RcIjpcIjEzOTgwMFwiLFwiaGFuZFBhaWRcIjpcIjYxODc3NTQwMFwiLFwiYmlsbEluXCI6XCI2ODU1OTUxMjBcIixcImdhbWVzUGxheWVkXCI6XCI0MjE1NDcwXCIsXCJwb3JjZW50YWplVGVvcmljb1wiOlwiOTBcIixcImV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMDJcIixcImZlY2hhRXZlbnRTaWduaWZpY2F0aXZvXCI6XCIyMDIzMDUxNTEyNTgyOFwifV0sXCJSRVwiOntcImNvbnRyYXRvXCI6XCJDMTYzMlwiLFwiY29kaWdvTG9jYWxcIjpcIjAwN1wiLFwidG90YWxSRFwiOlwiNFwifX0se1wiUkRcIjpbe1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDAwMjBcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDAwNDdcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDAxMTNcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDAxMzhcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDAyMDRcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDAyMjlcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDAyNTdcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDAzMjJcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDAzNDhcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDA0MTJcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDA0MzhcIn0se1wibnVjXCI6XCIxMDAxNzIwNDEzXCIsXCJudWlkXCI6XCIwMjIwMDI1OFwiLFwic2VyaWFsXCI6XCIyMDgwNjBcIixcImNvaW5JblwiOlwiMTg2NjEyMTAwXCIsXCJjb2luT3V0XCI6XCIxNjY4NzA2NjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIxNjY4NzA2NjBcIixcImJpbGxJblwiOlwiMTg2NjEyMTAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MjgzNVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwMDA1MDRcIn0se1wibnVjXCI6XCIxNTAwMDQ2NzMwXCIsXCJudWlkXCI6XCIwMjE5MDE1MlwiLFwic2VyaWFsXCI6XCIwNDAzNTUxNlwiLFwiY29pbkluXCI6XCIxNTM2MDcyMFwiLFwiY29pbk91dFwiOlwiMTQyNjg1NTBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCI1NDU0ODMwXCIsXCJiaWxsSW5cIjpcIjY1NDcwMDBcIixcImdhbWVzUGxheWVkXCI6XCIxMTYzMjBcIixcInBvcmNlbnRhamVUZW9yaWNvXCI6XCI5MFwiLFwiZXZlbnRTaWduaWZpY2F0aXZvXCI6XCIwMFwiLFwiZmVjaGFFdmVudFNpZ25pZmljYXRpdm9cIjpcIlwifSx7XCJudWNcIjpcIjE1MDAwNDY3MDNcIixcIm51aWRcIjpcIjAyMTkwMTUzXCIsXCJzZXJpYWxcIjpcIjA0MDM1NTE0XCIsXCJjb2luSW5cIjpcIjIwMTA4MTYwXCIsXCJjb2luT3V0XCI6XCIxODA5Mjc5MFwiLFwiamFja1BvdFwiOlwiMFwiLFwiaGFuZFBhaWRcIjpcIjU0MDA2MzBcIixcImJpbGxJblwiOlwiNzQxNjAwMFwiLFwiZ2FtZXNQbGF5ZWRcIjpcIjExNjk4MFwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwODI5MjVcIn0se1wibnVjXCI6XCIxNTAwMDQ2NzAzXCIsXCJudWlkXCI6XCIwMjE5MDE1M1wiLFwic2VyaWFsXCI6XCIwNDAzNTUxNFwiLFwiY29pbkluXCI6XCIyMDEwODE2MFwiLFwiY29pbk91dFwiOlwiMTgwOTI3OTBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCI1NDAwNjMwXCIsXCJiaWxsSW5cIjpcIjc0MTYwMDBcIixcImdhbWVzUGxheWVkXCI6XCIxMTY5ODBcIixcInBvcmNlbnRhamVUZW9yaWNvXCI6XCI5MFwiLFwiZXZlbnRTaWduaWZpY2F0aXZvXCI6XCIwNlwiLFwiZmVjaGFFdmVudFNpZ25pZmljYXRpdm9cIjpcIjIwMjMwNTE1MDgzMDUzXCJ9LHtcIm51Y1wiOlwiMTUwMDA0NjcwM1wiLFwibnVpZFwiOlwiMDIxOTAxNTNcIixcInNlcmlhbFwiOlwiMDQwMzU1MTRcIixcImNvaW5JblwiOlwiMjAyNjMzODBcIixcImNvaW5PdXRcIjpcIjE4MjI1NjEwXCIsXCJqYWNrUG90XCI6XCIwXCIsXCJoYW5kUGFpZFwiOlwiNTQ0NzIzMFwiLFwiYmlsbEluXCI6XCI3NDg1MDAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTE4MDY3XCIsXCJwb3JjZW50YWplVGVvcmljb1wiOlwiOTBcIixcImV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMDBcIixcImZlY2hhRXZlbnRTaWduaWZpY2F0aXZvXCI6XCJcIn1dLFwiUkVcIjp7XCJjb250cmF0b1wiOlwiQzE2MzJcIixcImNvZGlnb0xvY2FsXCI6XCIwMDhcIixcInRvdGFsUkRcIjpcIjE2XCJ9fSx7XCJSRFwiOlt7XCJudWNcIjpcIjE1MDExOTg1MDBcIixcIm51aWRcIjpcIjA5NzQ1MDE1XCIsXCJzZXJpYWxcIjpcIjg3NDg3NlwiLFwiY29pbkluXCI6XCI4NDkxMjA3MFwiLFwiY29pbk91dFwiOlwiNzk5MTQxNjBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIyMTc2MTA3MFwiLFwiYmlsbEluXCI6XCIyNjc1OTAwMFwiLFwiZ2FtZXNQbGF5ZWRcIjpcIjMzMTUxOFwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAwXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiXCJ9LHtcIm51Y1wiOlwiMTUwMTE5ODUxOVwiLFwibnVpZFwiOlwiMDk3NDUwMTZcIixcInNlcmlhbFwiOlwiODc0ODc3XCIsXCJjb2luSW5cIjpcIjEwMjg4NjE0MFwiLFwiY29pbk91dFwiOlwiOTQ0NjIzNTBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCIyNzY2NDIxMFwiLFwiYmlsbEluXCI6XCIzNjA4ODAwMFwiLFwiZ2FtZXNQbGF5ZWRcIjpcIjM1MzkwM1wiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAwXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiXCJ9XSxcIlJFXCI6e1wiY29udHJhdG9cIjpcIkMxNjMyXCIsXCJjb2RpZ29Mb2NhbFwiOlwiMDA5XCIsXCJ0b3RhbFJEXCI6XCIyXCJ9fSx7XCJSRFwiOlt7XCJudWNcIjpcIjEwMDE1NTYxNzNcIixcIm51aWRcIjpcIjAyMTYwNDIwXCIsXCJzZXJpYWxcIjpcIjIwMDI1MDEwXCIsXCJjb2luSW5cIjpcIjg1ODQ0NTAwMFwiLFwiY29pbk91dFwiOlwiNzEwMjc2MDAwXCIsXCJqYWNrUG90XCI6XCIwXCIsXCJoYW5kUGFpZFwiOlwiNzEwMjc2MDAwXCIsXCJiaWxsSW5cIjpcIjg1ODQ0NTAwMFwiLFwiZ2FtZXNQbGF5ZWRcIjpcIjE2ODE5ODlcIixcInBvcmNlbnRhamVUZW9yaWNvXCI6XCI4OVwiLFwiZXZlbnRTaWduaWZpY2F0aXZvXCI6XCIwNlwiLFwiZmVjaGFFdmVudFNpZ25pZmljYXRpdm9cIjpcIjIwMjMwNTE1MDgyNTE5XCJ9LHtcIm51Y1wiOlwiMTAwMTU1NjE3M1wiLFwibnVpZFwiOlwiMDIxNjA0MjBcIixcInNlcmlhbFwiOlwiMjAwMjUwMTBcIixcImNvaW5JblwiOlwiODU4NDQ1MDAwXCIsXCJjb2luT3V0XCI6XCI3MTAyNzYwMDBcIixcImphY2tQb3RcIjpcIjBcIixcImhhbmRQYWlkXCI6XCI3MTAyNzYwMDBcIixcImJpbGxJblwiOlwiODU4NDQ1MDAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMTY4MTk4OVwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjg5XCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjAyXCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwODI1MjBcIn0se1wibnVjXCI6XCIxMDAxNTU2MTczXCIsXCJudWlkXCI6XCIwMjE2MDQyMFwiLFwic2VyaWFsXCI6XCIyMDAyNTAxMFwiLFwiY29pbkluXCI6XCI4NTg0NDUwMDBcIixcImNvaW5PdXRcIjpcIjcxMDI3NjAwMFwiLFwiamFja1BvdFwiOlwiMFwiLFwiaGFuZFBhaWRcIjpcIjcxMDI3NjAwMFwiLFwiYmlsbEluXCI6XCI4NTg0NDUwMDBcIixcImdhbWVzUGxheWVkXCI6XCIxNjgxOTg5XCIsXCJwb3JjZW50YWplVGVvcmljb1wiOlwiODlcIixcImV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMDJcIixcImZlY2hhRXZlbnRTaWduaWZpY2F0aXZvXCI6XCIyMDIzMDUxNTA4MjcwMlwifSx7XCJudWNcIjpcIjEwMDE1NTYxNzNcIixcIm51aWRcIjpcIjAyMTYwNDIwXCIsXCJzZXJpYWxcIjpcIjIwMDI1MDEwXCIsXCJjb2luSW5cIjpcIjg1ODUxNTAwMFwiLFwiY29pbk91dFwiOlwiNzEwMzM2MDUwXCIsXCJqYWNrUG90XCI6XCIwXCIsXCJoYW5kUGFpZFwiOlwiNzEwMzM2MDUwXCIsXCJiaWxsSW5cIjpcIjg1ODUxNTAwMFwiLFwiZ2FtZXNQbGF5ZWRcIjpcIjE2ODIwODdcIixcInBvcmNlbnRhamVUZW9yaWNvXCI6XCI4OVwiLFwiZXZlbnRTaWduaWZpY2F0aXZvXCI6XCIwMFwiLFwiZmVjaGFFdmVudFNpZ25pZmljYXRpdm9cIjpcIlwifSx7XCJudWNcIjpcIjEwMDAwOTQwNjdcIixcIm51aWRcIjpcIjAyMTYwMTY2XCIsXCJzZXJpYWxcIjpcIjQwMjM2NjRcIixcImNvaW5JblwiOlwiMTg4MTUwMDBcIixcImNvaW5PdXRcIjpcIjE0NzY4MTAwXCIsXCJqYWNrUG90XCI6XCIxNjAwMDAwXCIsXCJoYW5kUGFpZFwiOlwiMTQ3NjgxMDBcIixcImJpbGxJblwiOlwiMTg4MTUwMDBcIixcImdhbWVzUGxheWVkXCI6XCI2NDAxNFwiLFwicG9yY2VudGFqZVRlb3JpY29cIjpcIjkwXCIsXCJldmVudFNpZ25pZmljYXRpdm9cIjpcIjA2XCIsXCJmZWNoYUV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMjAyMzA1MTUwODI3MzNcIn0se1wibnVjXCI6XCIxMDAwMDk0MDY3XCIsXCJudWlkXCI6XCIwMjE2MDE2NlwiLFwic2VyaWFsXCI6XCI0MDIzNjY0XCIsXCJjb2luSW5cIjpcIjE4ODE1MDAwXCIsXCJjb2luT3V0XCI6XCIxNDc2ODEwMFwiLFwiamFja1BvdFwiOlwiMTYwMDAwMFwiLFwiaGFuZFBhaWRcIjpcIjE0NzY4MTAwXCIsXCJiaWxsSW5cIjpcIjE4ODE1MDAwXCIsXCJnYW1lc1BsYXllZFwiOlwiNjQwMTRcIixcInBvcmNlbnRhamVUZW9yaWNvXCI6XCI5MFwiLFwiZXZlbnRTaWduaWZpY2F0aXZvXCI6XCIwMlwiLFwiZmVjaGFFdmVudFNpZ25pZmljYXRpdm9cIjpcIjIwMjMwNTE1MDgyNzM0XCJ9LHtcIm51Y1wiOlwiMTAwMDA5NDA2N1wiLFwibnVpZFwiOlwiMDIxNjAxNjZcIixcInNlcmlhbFwiOlwiNDAyMzY2NFwiLFwiY29pbkluXCI6XCIxOTAxMDAwMFwiLFwiY29pbk91dFwiOlwiMTUwOTgyNTBcIixcImphY2tQb3RcIjpcIjE2MDAwMDBcIixcImhhbmRQYWlkXCI6XCIxNTA5ODI1MFwiLFwiYmlsbEluXCI6XCIxOTAxMDAwMFwiLFwiZ2FtZXNQbGF5ZWRcIjpcIjY0Mzk5XCIsXCJwb3JjZW50YWplVGVvcmljb1wiOlwiOTBcIixcImV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMDBcIixcImZlY2hhRXZlbnRTaWduaWZpY2F0aXZvXCI6XCJcIn0se1wibnVjXCI6XCIxMDAwMjI2OTI1XCIsXCJudWlkXCI6XCIwMjE2MDE2N1wiLFwic2VyaWFsXCI6XCI0MDIzNjk2XCIsXCJjb2luSW5cIjpcIjIwMTA0OTMwMFwiLFwiY29pbk91dFwiOlwiMTg4MzE3OTAwXCIsXCJqYWNrUG90XCI6XCI0ODAwMDAwXCIsXCJoYW5kUGFpZFwiOlwiNjY4MjY2MDBcIixcImJpbGxJblwiOlwiNzk1NTUwMDBcIixcImdhbWVzUGxheWVkXCI6XCIzMDQ3OTdcIixcInBvcmNlbnRhamVUZW9yaWNvXCI6XCI4OFwiLFwiZXZlbnRTaWduaWZpY2F0aXZvXCI6XCIwNlwiLFwiZmVjaGFFdmVudFNpZ25pZmljYXRpdm9cIjpcIjIwMjMwNTE1MDgyNTE1XCJ9LHtcIm51Y1wiOlwiMTAwMDIyNjkyNVwiLFwibnVpZFwiOlwiMDIxNjAxNjdcIixcInNlcmlhbFwiOlwiNDAyMzY5NlwiLFwiY29pbkluXCI6XCIyMDEwNDkzMDBcIixcImNvaW5PdXRcIjpcIjE4ODMxNzkwMFwiLFwiamFja1BvdFwiOlwiNDgwMDAwMFwiLFwiaGFuZFBhaWRcIjpcIjY2ODI2NjAwXCIsXCJiaWxsSW5cIjpcIjc5NTU1MDAwXCIsXCJnYW1lc1BsYXllZFwiOlwiMzA0Nzk3XCIsXCJwb3JjZW50YWplVGVvcmljb1wiOlwiODhcIixcImV2ZW50U2lnbmlmaWNhdGl2b1wiOlwiMDJcIixcImZlY2hhRXZlbnRTaWduaWZpY2F0aXZvXCI6XCIyMDIzMDUxNTA4MjYwNlwifV0sXCJSRVwiOntcImNvbnRyYXRvXCI6XCJDMTYzMlwiLFwiY29kaWdvTG9jYWxcIjpcIjAxNFwiLFwidG90YWxSRFwiOlwiOVwifX1dfX1cIn0ifX0', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(164): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:05:12 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOm51bGx9fQ', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(167): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:05:39 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOm51bGx9fQ', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(164): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:06:00 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOm51bGx9fQ', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(165): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:06:12 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOm51bGx9fQ', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(165): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:06:48 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOm51bGx9fQ', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(165): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:11:46 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOm51bGx9fQ', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(166): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:12:30 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\UserApiController.php on line 112.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:13:42 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOm51bGx9fQ', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(166): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:13:55 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOm51bGx9fQ', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(166): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:14:13 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOm51bGx9fQ', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(166): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:15:20 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 237.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(207): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3NjbG1wbHVzcHIuY29sanVlZ29zLmdvdi5jby9TQ0xNTWV0T25saW5lLXdhci9KV1RBdXRoIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdC9jaS1hdXRoLWFwaS9wdWJsaWMvbG9naW4tdXNlcnMiLCJkYXRhIjp7InVzdWFyaW8iOm51bGx9fQ', null, 'HS256')
+ 2 APPPATH\Controllers\UserApiController.php(157): Firebase\JWT\JWT::encode([...], null, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 02:24:44 --> curl_setopt() expects parameter 1 to be resource, null given
+in APPPATH\Controllers\UserApiController.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'curl_setopt() expects parameter 1 to be resource, null given', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 97, [...])
+ 2 APPPATH\Controllers\UserApiController.php(97): curl_setopt(null, 10023, [...])
+ 3 APPPATH\Controllers\UserApiController.php(162): App\Controllers\UserApiController->perform_http_request_enc('https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTEncrypt', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJDSjkwMDAyNDg3NCIsImF1ZCI6WyJDSjkwMDAyNDg3NCJdLCJpc3MiOiJhZG1vbkB5dWJhcHBzLmNvbSIsImV4cCI6MTY4NjA4NTk0OSwiaWF0IjoxNjg1OTk5NTQ5LCJqdGkiOiI3MjAzMzUxNS1jNjA1LTQ4MDctOTc5OC00ZmFjNWI4M2ZmOTIifQ.KzVDkXSjRAtCpLKslvnUUc66isjU-UHpw2Egrb_tVOI', '{"numeroContrato":{"contrato":"C1632"},"codigoSHA":{"codigoSHA":"daae97eace5e89c758ce7fd432fa46caa160c0e4"},"f18Data":{"RI":{"fechaReporte":"20230515","nit":"900024874","formato":"Q3GTdn7L4x","clave":"F18"},"RC":[{"RD":[{"nuc":"1001275600","nuid":"02200244","serial":"334833","coinIn":"685444820","coinOut":"618642240","jackPot":"139800","handPaid":"618642240","billIn":"685444820","gamesPlayed":"4214573","porcentajeTeorico":"90","eventSignificativo":"06","fechaEventSignificativo":"20230515093819"},{"nuc":"1001275600","nuid":"02200244","serial":"334833","coinIn":"685450380","coinOut":"618642260","jackPot":"139800","handPaid":"618642260","billIn":"685450380","gamesPlayed":"4214605","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515095801"},{"nuc":"1001275600","nuid":"02200244","serial":"334833","coinIn":"685465120","coinOut":"618656240","jackPot":"139800","handPaid":"618656240","billIn":"685465120","gamesPlayed":"4214689","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515104612"},{"nuc":"1001275600","nuid":"02200244","serial":"334833","coinIn":"685595120","coinOut":"618775400","jackPot":"139800","handPaid":"618775400","billIn":"685595120","gamesPlayed":"4215470","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515125828"}],"RE":{"contrato":"C1632","codigoLocal":"007","totalRD":"4"}},{"RD":[{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000020"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000047"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000113"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000138"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000204"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000229"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000257"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000322"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000348"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000412"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000438"},{"nuc":"1001720413","nuid":"02200258","serial":"208060","coinIn":"186612100","coinOut":"166870660","jackPot":"0","handPaid":"166870660","billIn":"186612100","gamesPlayed":"1182835","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515000504"},{"nuc":"1500046730","nuid":"02190152","serial":"04035516","coinIn":"15360720","coinOut":"14268550","jackPot":"0","handPaid":"5454830","billIn":"6547000","gamesPlayed":"116320","porcentajeTeorico":"90","eventSignificativo":"00","fechaEventSignificativo":""},{"nuc":"1500046703","nuid":"02190153","serial":"04035514","coinIn":"20108160","coinOut":"18092790","jackPot":"0","handPaid":"5400630","billIn":"7416000","gamesPlayed":"116980","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515082925"},{"nuc":"1500046703","nuid":"02190153","serial":"04035514","coinIn":"20108160","coinOut":"18092790","jackPot":"0","handPaid":"5400630","billIn":"7416000","gamesPlayed":"116980","porcentajeTeorico":"90","eventSignificativo":"06","fechaEventSignificativo":"20230515083053"},{"nuc":"1500046703","nuid":"02190153","serial":"04035514","coinIn":"20263380","coinOut":"18225610","jackPot":"0","handPaid":"5447230","billIn":"7485000","gamesPlayed":"118067","porcentajeTeorico":"90","eventSignificativo":"00","fechaEventSignificativo":""}],"RE":{"contrato":"C1632","codigoLocal":"008","totalRD":"16"}},{"RD":[{"nuc":"1501198500","nuid":"09745015","serial":"874876","coinIn":"84912070","coinOut":"79914160","jackPot":"0","handPaid":"21761070","billIn":"26759000","gamesPlayed":"331518","porcentajeTeorico":"90","eventSignificativo":"00","fechaEventSignificativo":""},{"nuc":"1501198519","nuid":"09745016","serial":"874877","coinIn":"102886140","coinOut":"94462350","jackPot":"0","handPaid":"27664210","billIn":"36088000","gamesPlayed":"353903","porcentajeTeorico":"90","eventSignificativo":"00","fechaEventSignificativo":""}],"RE":{"contrato":"C1632","codigoLocal":"009","totalRD":"2"}},{"RD":[{"nuc":"1001556173","nuid":"02160420","serial":"20025010","coinIn":"858445000","coinOut":"710276000","jackPot":"0","handPaid":"710276000","billIn":"858445000","gamesPlayed":"1681989","porcentajeTeorico":"89","eventSignificativo":"06","fechaEventSignificativo":"20230515082519"},{"nuc":"1001556173","nuid":"02160420","serial":"20025010","coinIn":"858445000","coinOut":"710276000","jackPot":"0","handPaid":"710276000","billIn":"858445000","gamesPlayed":"1681989","porcentajeTeorico":"89","eventSignificativo":"02","fechaEventSignificativo":"20230515082520"},{"nuc":"1001556173","nuid":"02160420","serial":"20025010","coinIn":"858445000","coinOut":"710276000","jackPot":"0","handPaid":"710276000","billIn":"858445000","gamesPlayed":"1681989","porcentajeTeorico":"89","eventSignificativo":"02","fechaEventSignificativo":"20230515082702"},{"nuc":"1001556173","nuid":"02160420","serial":"20025010","coinIn":"858515000","coinOut":"710336050","jackPot":"0","handPaid":"710336050","billIn":"858515000","gamesPlayed":"1682087","porcentajeTeorico":"89","eventSignificativo":"00","fechaEventSignificativo":""},{"nuc":"1000094067","nuid":"02160166","serial":"4023664","coinIn":"18815000","coinOut":"14768100","jackPot":"1600000","handPaid":"14768100","billIn":"18815000","gamesPlayed":"64014","porcentajeTeorico":"90","eventSignificativo":"06","fechaEventSignificativo":"20230515082733"},{"nuc":"1000094067","nuid":"02160166","serial":"4023664","coinIn":"18815000","coinOut":"14768100","jackPot":"1600000","handPaid":"14768100","billIn":"18815000","gamesPlayed":"64014","porcentajeTeorico":"90","eventSignificativo":"02","fechaEventSignificativo":"20230515082734"},{"nuc":"1000094067","nuid":"02160166","serial":"4023664","coinIn":"19010000","coinOut":"15098250","jackPot":"1600000","handPaid":"15098250","billIn":"19010000","gamesPlayed":"64399","porcentajeTeorico":"90","eventSignificativo":"00","fechaEventSignificativo":""},{"nuc":"1000226925","nuid":"02160167","serial":"4023696","coinIn":"201049300","coinOut":"188317900","jackPot":"4800000","handPaid":"66826600","billIn":"79555000","gamesPlayed":"304797","porcentajeTeorico":"88","eventSignificativo":"06","fechaEventSignificativo":"20230515082515"},{"nuc":"1000226925","nuid":"02160167","serial":"4023696","coinIn":"201049300","coinOut":"188317900","jackPot":"4800000","handPaid":"66826600","billIn":"79555000","gamesPlayed":"304797","porcentajeTeorico":"88","eventSignificativo":"02","fechaEventSignificativo":"20230515082606"}],"RE":{"contrato":"C1632","codigoLocal":"014","totalRD":"9"}}]}}')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->JWTEncrypt()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

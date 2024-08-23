@@ -1,0 +1,431 @@
+CRITICAL - 2023-05-23 14:51:28 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '' (include_path='.;C:\php\pear')
+in APPPATH\Controllers\UserApiController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 18:02:07 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '' (include_path='.;C:\php\pear')
+in APPPATH\Controllers\UserApiController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 18:06:18 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '' (include_path='.;C:\php\pear')
+in APPPATH\Controllers\UserApiController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 18:07:01 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\wamp64\www\ci-auth-api\app\Controllersjwt/src/JWT.php' (include_path='.;C:\php\pear')
+in APPPATH\Controllers\UserApiController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 18:07:03 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\wamp64\www\ci-auth-api\app\Controllersjwt/src/JWT.php' (include_path='.;C:\php\pear')
+in APPPATH\Controllers\UserApiController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 18:09:36 --> password_hash(): Unknown password hashing algorithm: $2y$10$J5mu6VFZfkLezDjp0W5lBumtd3OHeepS3FYvx1iGav7
+in APPPATH\Controllers\UserApiController.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash(): Unknown password hashing algorithm: $2y$10$J5mu6VFZfkLezDjp0W5lBumtd3OHeepS3FYvx1iGav7', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 51, [...])
+ 2 APPPATH\Controllers\UserApiController.php(51): password_hash('abc123', '$2y$10$J5mu6VFZfkLezDjp0W5lBumtd3OHeepS3FYvx1iGav7')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 18:10:39 --> password_hash(): Unknown password hashing algorithm: $2y$10$J5mu6VFZfkLezDjp0W5lBumtd3OHeepS3FYvx1iGav7
+in APPPATH\Controllers\UserApiController.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash(): Unknown password hashing algorithm: $2y$10$J5mu6VFZfkLezDjp0W5lBumtd3OHeepS3FYvx1iGav7', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 51, [...])
+ 2 APPPATH\Controllers\UserApiController.php(51): password_hash('abc123', '$2y$10$J5mu6VFZfkLezDjp0W5lBumtd3OHeepS3FYvx1iGav7')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 18:12:26 --> password_hash(): Unknown password hashing algorithm: $2y$10$J5mu6VFZfkLezDjp0W5lBumtd3OHeepS3FYvx1iGav7
+in APPPATH\Controllers\UserApiController.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash(): Unknown password hashing algorithm: $2y$10$J5mu6VFZfkLezDjp0W5lBumtd3OHeepS3FYvx1iGav7', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 53, [...])
+ 2 APPPATH\Controllers\UserApiController.php(53): password_hash('abc123', '$2y$10$J5mu6VFZfkLezDjp0W5lBumtd3OHeepS3FYvx1iGav7')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 18:39:18 --> Call to undefined method App\Controllers\UserApiController::is()
+in APPPATH\Controllers\UserApiController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 18:41:19 --> Undefined variable: request
+in APPPATH\Controllers\UserApiController.php on line 49.
+ 1 APPPATH\Controllers\UserApiController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 49, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 18:41:37 --> Undefined variable: request
+in APPPATH\Controllers\UserApiController.php on line 49.
+ 1 APPPATH\Controllers\UserApiController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 49, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 18:42:27 --> Too few arguments to function App\Controllers\UserApiController::login(), 0 passed in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserApiController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 18:42:57 --> Too few arguments to function App\Controllers\UserApiController::login(), 0 passed in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserApiController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 18:43:28 --> Too few arguments to function App\Controllers\UserApiController::login(), 0 passed in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserApiController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 18:43:36 --> Too few arguments to function App\Controllers\UserApiController::login(), 0 passed in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserApiController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 18:57:09 --> Illegal string offset 'usuario'
+in APPPATH\Controllers\UserApiController.php on line 53.
+ 1 APPPATH\Controllers\UserApiController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'usuario\'', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 20:38:10 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/HTTP/Request2.php' (include_path='.;C:\php\pear')
+in APPPATH\Controllers\UserApiController.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 20:46:25 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'HTTP/Request2.php' (include_path='C:\wamp64\www\ci-auth-api\vendor/pear/net_url2;C:\wamp64\www\ci-auth-api\vendor/pear/pear_exception;.;C:\php\pear')
+in APPPATH\Controllers\UserApiController.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 20:47:52 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'HTTP/Request2.php' (include_path='C:\wamp64\www\ci-auth-api\vendor/pear/net_url2;C:\wamp64\www\ci-auth-api\vendor/pear/pear_exception;.;C:\php\pear')
+in APPPATH\Controllers\UserApiController.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 20:48:11 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'HTTP/Request2.php' (include_path='C:\wamp64\www\ci-auth-api\vendor/pear/net_url2;C:\wamp64\www\ci-auth-api\vendor/pear/pear_exception;.;C:\php\pear')
+in APPPATH\Controllers\UserApiController.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 20:58:50 --> 60 : SSL certificate problem: unable to get local issuer certificate
+in SYSTEMPATH\HTTP\CURLRequest.php on line 675.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate problem: unable to get local issuer certificate')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth')
+ 4 APPPATH\Controllers\UserApiController.php(54): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 20:58:59 --> 60 : SSL certificate problem: unable to get local issuer certificate
+in SYSTEMPATH\HTTP\CURLRequest.php on line 675.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate problem: unable to get local issuer certificate')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth')
+ 4 APPPATH\Controllers\UserApiController.php(54): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 21:33:29 --> 60 : SSL certificate problem: unable to get local issuer certificate
+in SYSTEMPATH\HTTP\CURLRequest.php on line 675.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate problem: unable to get local issuer certificate')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 5 APPPATH\Controllers\UserApiController.php(56): CodeIgniter\HTTP\CURLRequest->post('https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 6 APPPATH\Controllers\UserApiController.php(120): App\Controllers\UserApiController->postrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 21:33:29 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+60 : SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmplu...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmplu...', Array)
+#4 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(56): CodeIgniter\HTTP\CURLRequest->post('https://sclmplu...', Array)
+#5 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(120): App\Controllers\UserApiController->postrequest()
+#6 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+#7 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#8 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 21:37:26 --> 60 : SSL certificate problem: unable to get local issuer certificate
+in SYSTEMPATH\HTTP\CURLRequest.php on line 675.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate problem: unable to get local issuer certificate')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 5 APPPATH\Controllers\UserApiController.php(55): CodeIgniter\HTTP\CURLRequest->post('https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 6 APPPATH\Controllers\UserApiController.php(122): App\Controllers\UserApiController->postrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 21:37:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+60 : SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmplu...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmplu...', Array)
+#4 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(55): CodeIgniter\HTTP\CURLRequest->post('https://sclmplu...', Array)
+#5 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(122): App\Controllers\UserApiController->postrequest()
+#6 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+#7 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#8 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 21:39:23 --> 60 : SSL certificate problem: unable to get local issuer certificate
+in SYSTEMPATH\HTTP\CURLRequest.php on line 675.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate problem: unable to get local issuer certificate')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 5 APPPATH\Controllers\UserApiController.php(55): CodeIgniter\HTTP\CURLRequest->post('https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 6 APPPATH\Controllers\UserApiController.php(122): App\Controllers\UserApiController->postrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 21:39:23 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+60 : SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmplu...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmplu...', Array)
+#4 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(55): CodeIgniter\HTTP\CURLRequest->post('https://sclmplu...', Array)
+#5 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(122): App\Controllers\UserApiController->postrequest()
+#6 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+#7 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#8 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 21:41:21 --> Cannot use CodeIgniter\HTTP\CURLRequest as CURLRequest because the name is already in use
+in APPPATH\Controllers\UserApiController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 21:41:31 --> 60 : SSL certificate problem: unable to get local issuer certificate
+in SYSTEMPATH\HTTP\CURLRequest.php on line 675.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate problem: unable to get local issuer certificate')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 5 APPPATH\Controllers\UserApiController.php(56): CodeIgniter\HTTP\CURLRequest->post('https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 6 APPPATH\Controllers\UserApiController.php(123): App\Controllers\UserApiController->postrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 21:41:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+60 : SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmplu...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmplu...', Array)
+#4 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(56): CodeIgniter\HTTP\CURLRequest->post('https://sclmplu...', Array)
+#5 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(123): App\Controllers\UserApiController->postrequest()
+#6 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+#7 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#8 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 21:41:40 --> 60 : SSL certificate problem: unable to get local issuer certificate
+in SYSTEMPATH\HTTP\CURLRequest.php on line 675.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate problem: unable to get local issuer certificate')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 5 APPPATH\Controllers\UserApiController.php(56): CodeIgniter\HTTP\CURLRequest->post('https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 6 APPPATH\Controllers\UserApiController.php(123): App\Controllers\UserApiController->postrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 21:41:40 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+60 : SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmplu...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmplu...', Array)
+#4 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(56): CodeIgniter\HTTP\CURLRequest->post('https://sclmplu...', Array)
+#5 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(123): App\Controllers\UserApiController->postrequest()
+#6 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+#7 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#8 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 21:41:49 --> 60 : SSL certificate problem: unable to get local issuer certificate
+in SYSTEMPATH\HTTP\CURLRequest.php on line 675.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate problem: unable to get local issuer certificate')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 5 APPPATH\Controllers\UserApiController.php(54): CodeIgniter\HTTP\CURLRequest->post('https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 6 APPPATH\Controllers\UserApiController.php(121): App\Controllers\UserApiController->postrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 21:41:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Type is not supported in C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#5 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\HTTP\Exceptions\HTTPException
+60 : SSL certificate problem: unable to get local issuer certificate
+#0 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate...')
+#1 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('post', 'https://sclmplu...')
+#3 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\HTTP\CURLRequest.php(216): CodeIgniter\HTTP\CURLRequest->request('post', 'https://sclmplu...', Array)
+#4 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(54): CodeIgniter\HTTP\CURLRequest->post('https://sclmplu...', Array)
+#5 C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php(121): App\Controllers\UserApiController->postrequest()
+#6 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+#7 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+#8 C:\wamp64\www\ci-auth-api\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\ci-auth-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-23 22:15:48 --> Argument 3 passed to CodeIgniter\HTTP\CURLRequest::request() must be of the type array, string given, called in C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php on line 51
+in SYSTEMPATH\HTTP\CURLRequest.php on line 133.
+ 1 APPPATH\Controllers\UserApiController.php(51): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', '{"usuario":"CJ900024874"}')
+ 2 APPPATH\Controllers\UserApiController.php(85): App\Controllers\UserApiController->perform_http_request('POST', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', '{"usuario":"CJ900024874"}')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:16:13 --> 60 : SSL certificate problem: unable to get local issuer certificate
+in SYSTEMPATH\HTTP\CURLRequest.php on line 675.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('60', 'SSL certificate problem: unable to get local issuer certificate')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth')
+ 4 APPPATH\Controllers\UserApiController.php(51): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', [...])
+ 5 APPPATH\Controllers\UserApiController.php(85): App\Controllers\UserApiController->perform_http_request('POST', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', '{"usuario":"CJ900024874"}')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:17:44 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+in APPPATH\Controllers\UserApiController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserApiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserApiController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\UserApiController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserApiController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:39:37 --> Undefined index: usuario
+in APPPATH\Controllers\UserApiController.php on line 83.
+ 1 APPPATH\Controllers\UserApiController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: usuario', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 83, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:39:43 --> Undefined index: usuario
+in APPPATH\Controllers\UserApiController.php on line 83.
+ 1 APPPATH\Controllers\UserApiController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: usuario', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 83, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:39:50 --> Undefined index: usuario
+in APPPATH\Controllers\UserApiController.php on line 83.
+ 1 APPPATH\Controllers\UserApiController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: usuario', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 83, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:40:06 --> Undefined property: App\Controllers\UserApiController::$CURL_headers
+in APPPATH\Controllers\UserApiController.php on line 55.
+ 1 APPPATH\Controllers\UserApiController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\UserApiController::$CURL_headers', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 55, [...])
+ 2 APPPATH\Controllers\UserApiController.php(89): App\Controllers\UserApiController->perform_http_request('POST', 'https://sclmpluspr.coljuegos.gov.co/SCLMMetOnline-war/JWTAuth', '{"usuario":"CJ900024874"}')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:40:23 --> Undefined index: usuario
+in APPPATH\Controllers\UserApiController.php on line 83.
+ 1 APPPATH\Controllers\UserApiController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: usuario', 'C:\\wamp64\\www\\ci-auth-api\\app\\Controllers\\UserApiController.php', 83, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:57:51 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\UserApiController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 22:57:54 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\UserApiController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-23 23:53:25 --> Argument 1 passed to Firebase\JWT\JWT::encode() must be of the type array, string given, called in C:\wamp64\www\ci-auth-api\app\Controllers\UserApiController.php on line 101
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 188.
+ 1 APPPATH\Controllers\UserApiController.php(101): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJDSjkwMDAyNDg3NCIsImF1ZCI6WyJDSjkwMDAyNDg3NCJdLCJpc3MiOiJhZG1vbkB5dWJhcHBzLmNvbSIsImV4cCI6MTY4NDk1NDM5OSwiaWF0IjoxNjg0ODY3OTk5LCJqdGkiOiJiZDhlNjIyZi04OTM4LTQwZmMtODk2Zi0zZWIwYTA0MTAxNzAifQ.hYn1S_vIczAZdVnUi-yBQjXMxKRJvbc4gwSGBGbbCmc', [...], 'asdqwezxcasdqwe', 'HS256')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

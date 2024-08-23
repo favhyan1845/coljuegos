@@ -1,0 +1,398 @@
+CRITICAL - 2023-06-28 01:37:56 --> sha1_file(): Filename cannot be empty
+in APPPATH\Controllers\UserApiController.php on line 192.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1_file(): Filename cannot be empty', 'C:\\wamp64\\www\\coljuegos\\app\\Controllers\\UserApiController.php', 192, [...])
+ 2 APPPATH\Controllers\UserApiController.php(192): sha1_file('')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserApiController->reportCSV()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 03:58:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR NOT NULL UNIQUE,
+	`direccion` VARCHAR NOT NULL,
+	`conta' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(62): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:00:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR NOT NULL UNIQUE,
+	`direccion` VARCHAR NOT NULL,
+	`conta' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(62): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:00:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto` VA' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(59): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:01:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto` VA' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(59): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:02:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto` VA' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(52): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:11:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto` VA' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(61): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:13:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto` VA' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(60): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:14:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto` VA' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(60): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:15:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto` VA' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(60): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:18:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR(50) NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(60): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:20:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR(50) NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(59): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:20:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR(50) NOT NULL,
+	`direccion` VARCHAR NULL,
+	`contacto` CH' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(59): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:20:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR(50) NULL,
+	`direccion` VARCHAR NULL,
+	`contacto` VARCHA' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(59): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:21:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL,
+	`nit` VARCHAR(50) NULL,
+	`direccion` VARCHAR NULL,
+	`contacto` VARCHAR NO' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(59): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:21:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR(50) NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(59): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:23:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR(50) NULL,
+	`direccion` VARCHAR NULL,
+	`contacto` VARCHA' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(59): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:24:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL,
+	`nit` VARCHAR(50) NULL,
+	`direccion` VARCHAR NULL,
+	`contacto` VARCHAR NO' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(59): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:24:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR(50) NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(51): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:31:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR(50) NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(60): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:33:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR(50) NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-032836_Operador.php(60): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:37:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`nit` VARCHAR(50) NOT NULL,
+	`direccion` VARCHAR NOT NULL,
+	`contacto' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-043544_Operador.php(60): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:38:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`contrato` VARCHAR NOT NULL,
+	`correo` VARCHAR NOT NULL UNIQUE,
+	`tel' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-043544_Operador.php(60): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-28 04:38:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_operador` PRIMARY KEY(`operador_id`)
+) DEFAULT CHARACT' at line 3 in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\wamp64\www\coljuegos\app\Database\Migrations\2023-06-28-043544_Operador.php(60): CodeIgniter\Database\Forge->createTable('operador')
+#5 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Operador->up()
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\wamp64\www\coljuegos\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}

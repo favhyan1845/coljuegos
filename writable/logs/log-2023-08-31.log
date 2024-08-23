@@ -1,0 +1,799 @@
+CRITICAL - 2023-08-31 01:42:25 --> Illegal offset type
+in APPPATH\Models\OperadorModel.php on line 129.
+ 1 APPPATH\Models\OperadorModel.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'C:\\wamp64\\www\\coljuegos\\app\\Models\\OperadorModel.php', 129, [...])
+ 2 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:54:54 --> Illegal offset type
+in APPPATH\Models\OperadorModel.php on line 129.
+ 1 APPPATH\Models\OperadorModel.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'C:\\wamp64\\www\\coljuegos\\app\\Models\\OperadorModel.php', 129, [...])
+ 2 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:55:50 --> Illegal offset type
+in APPPATH\Models\OperadorModel.php on line 129.
+ 1 APPPATH\Models\OperadorModel.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'C:\\wamp64\\www\\coljuegos\\app\\Models\\OperadorModel.php', 129, [...])
+ 2 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:55:54 --> Illegal offset type
+in APPPATH\Models\OperadorModel.php on line 129.
+ 1 APPPATH\Models\OperadorModel.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'C:\\wamp64\\www\\coljuegos\\app\\Models\\OperadorModel.php', 129, [...])
+ 2 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:57:34 --> Illegal offset type
+in APPPATH\Models\OperadorModel.php on line 129.
+ 1 APPPATH\Models\OperadorModel.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'C:\\wamp64\\www\\coljuegos\\app\\Models\\OperadorModel.php', 129, [...])
+ 2 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:02:07 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(146): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:02:07 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(146): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:02:27 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(146): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:02:27 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(146): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:02:31 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(146): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:02:31 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(146): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:03:32 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:03:32 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:03:36 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:03:36 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:06:20 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:06:20 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:07:03 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:07:03 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:09:30 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:09:30 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:09:49 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:09:49 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:10:08 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:10:08 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:10:38 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Models\OperadorModel.php on line 148.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-08-31 02:10:58 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:10:58 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:11:15 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:11:15 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:11:18 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:11:18 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:11:45 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:11:45 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:11:47 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:11:47 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:12:07 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:12:07 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:13:08 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:13:08 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:15:46 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:15:46 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:15:48 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:15:48 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:15:58 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:15:58 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:20:21 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:20:21 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:20:23 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:20:23 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:20:24 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:20:24 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:21:43 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:21:43 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:22:01 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:22:01 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:22:02 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:22:02 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:22:45 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:22:45 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:23:07 --> mysqli_sql_exception: Duplicate entry 'hugo@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:23:07 --> Duplicate entry 'hugo@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(147): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(203): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 02:32:42 --> mysqli_sql_exception: Duplicate entry 'hugo1@gmail.com' for key 'correo' in C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\wamp64\www\coljuegos\app\Models\OperadorModel.php(159): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\coljuegos\app\Controllers\OperadorApiController.php(209): App\Models\OperadorModel->addUser(Array)
+#6 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+#7 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+#8 C:\wamp64\www\coljuegos\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\coljuegos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-31 02:32:42 --> Duplicate entry 'hugo1@gmail.com' for key 'correo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo1@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo1@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (\'666\', \'juegos de azares\', \'999\', \'calle689\', \'hugo\', \'hugo1@gmail.com\', \'311232521\', \'3\', \'1\', \'YWJjMzIx\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operador` (`usuario`, `nombre`, `nit`, `direccion`, `contacto`, `correo`, `telefono`, `tipo`, `estado`, `password`) VALUES (:usuario:, :nombre:, :nit:, :direccion:, :contacto:, :correo:, :telefono:, :tipo:, :estado:, :password:)', [...], false)
+ 5 APPPATH\Models\OperadorModel.php(159): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\OperadorApiController.php(209): App\Models\OperadorModel->addUser([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->addUser()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 20:28:42 --> syntax error, unexpected ''<pre>'' (T_CONSTANT_ENCAPSED_STRING)
+in APPPATH\Controllers\OperadorApiController.php on line 233.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\coljuegos\\app\\Controllers\\OperadorApiController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\OperadorApiController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\OperadorApiController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\OperadorApiController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\OperadorApiController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 20:45:51 --> Cannot use object of type stdClass as array
+in APPPATH\Models\OperadorModel.php on line 152.
+ 1 APPPATH\Controllers\OperadorApiController.php(232): App\Models\OperadorModel->editUser(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 20:46:17 --> Cannot use object of type stdClass as array
+in APPPATH\Models\OperadorModel.php on line 152.
+ 1 APPPATH\Controllers\OperadorApiController.php(232): App\Models\OperadorModel->editUser(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 20:58:19 --> Call to undefined method App\Models\OperadorModel::getIdOperadorById
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\OperadorApiController.php(227): CodeIgniter\Model->__call('getIdOperadorById', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OperadorApiController->editUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperadorApiController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
